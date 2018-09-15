@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c8537671-bdb6-4399-b64d-7ff54f663ed5" version="1">
+  <Properties>
+    <Name>VPmod Buildings Pack</Name>
+    <Teaser>Wonders and buildings Pack</Teaser>
+    <Description>Content :[NEWLINE]CPW Gobekli Tepe, CPW Monasteries of Meteora, CPW Temple of Heaven, CPW Three Gorges Dam by Brackenspore[NEWLINE]Palio di Sienna (Sienna's Palio) by Elia[NEWLINE]GMO Laboratory by Grizzy367[NEWLINE]Casino Building by NTGuardian/Circuit[NEWLINE]Clock Tower Building by Jarcast[NEWLINE]Polar Station by RetroA/Asterix Rage[NEWLINE]Parliamentary Recruiting Committee by Asterix Rage</Description>
+    <Authors>Asterix Rage</Authors>
+    <SpecialThanks>Everybody</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="000000000000005FBDBB52AF10133558" import="1">ART/buildingPack_1_256.dds</File>
+    <File md5="1111111111111111BDBB52AF10133558" import="1">ART/buildingPack_1_128.dds</File>
+    <File md5="222222222222222FBDBB52AF10133558" import="1">ART/buildingPack_1_080.dds</File>
+    <File md5="333333333333375FBDBB52AF10133558" import="1">ART/buildingPack_1_064.dds</File>
+    <File md5="444444444444444FBDBB52AF10133558" import="1">ART/buildingPack_1_045.dds</File>
+    <File md5="8A93CDD735BF599780C1F91DB1628B02" import="1">Font Icon/GO_fonticons.dds</File>
+    <File md5="D618FC301CCBE103CEBA7575F7A7D6C9" import="1">Font Icon/GO_fonticons.ggxml</File>
+    <File md5="555555555555555555555575F7A7D6C9" import="1">ART/Gobekli_Splash.dds</File>
+    <File md5="111111111111111155555575F7A7D6C9" import="1">ART/meteora_splash.dds</File>
+    <File md5="666666666666666655555575F7A7D6C9" import="1">ART/Temple_of_Heaven_splash.dds</File>
+    <File md5="000000000000000000555575F7A7D6C9" import="1">ART/ThreeGeorgesDam.dds</File>
+    <File md5="666666666666666FBDBB52AF10133558" import="0">ART/iconAtlas_def.sql</File>
+    <File md5="77AE959D7D8E34F35AC1F4F4ECDE6D6E" import="0">Font Icon/GO_fonticons.xml</File>
+    <File md5="D5D39AD47ABE927B69ACD45D4943096A" import="0">Terrain/greekolives.xml</File>
+    <File md5="16897685F46FD8905BB97E53754469DD" import="0">XML_Building/Meteora_Building.xml</File>
+    <File md5="57CBB2CBED39375FBDBB52AF10133558" import="0">XML_Building/Gobekli_Buildings.xml</File>
+    <File md5="7946ED1358C32C80B5695B9F5A400D33" import="0">XML_Building/Temple_of_Heaven_Building.xml</File>
+    <File md5="0B7826BEDCBDE781ED56A6C9E5676DD4" import="0">XML_Building/Yangtze_Building.xml</File>
+    <File md5="435496129F011BBE65770C8811EF7039" import="0">XML_Building/PDS_Building.xml</File>
+    <File md5="7EC1E15BF1505C2F9A8262C9D365BC4D" import="0">XML_Building/gmo_Building.xml</File>
+    <File md5="BE88D1655855B9B3141EE39D2D6D3AD0" import="0">XML_Building/casino_Building.xml</File>
+    <File md5="40D5D966D41FBBB638F8EA9465631324" import="0">SQL_Building/Clock_tower.sql</File>
+    <File md5="C3E52432F778C4E0FACB762A3D5CD4C1" import="0">XML_Building/polarStation_Building.xml</File>
+    <File md5="537865DC2BF19035BA1ED15C0223AAAE" import="0">XML_Building/PRC_Building.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ART/iconAtlas_def.sql</UpdateDatabase>
+      <UpdateDatabase>XML_Building/Gobekli_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Font Icon/GO_fonticons.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/greekolives.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/Meteora_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/Temple_of_Heaven_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/Yangtze_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/PDS_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/gmo_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/casino_Building.xml</UpdateDatabase>
+      <UpdateDatabase>SQL_Building/Clock_tower.sql</UpdateDatabase>
+      <UpdateDatabase>XML_Building/polarStation_Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML_Building/PRC_Building.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

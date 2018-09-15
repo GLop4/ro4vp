@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PRC</Type>
+			<DefaultBuilding>BUILDING_PRC</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PRC</Description>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PRC</Type>
+			<BuildingClass>BUILDINGCLASS_PRC</BuildingClass>
+			<Cost>1780</Cost>
+			<Help>TXT_KEY_BUILDING_PRC_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PRC</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_PRC_TEXT</Civilopedia>
+			<PrereqTech>TECH_CORPORATIONS</PrereqTech>
+			<GoldMaintenance>2</GoldMaintenance>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>450</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+      <IconAtlas>VP_BUILDING_PACK1_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+      <CitySupplyFlat>2</CitySupplyFlat>
+		</Row>
+	</Buildings>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_PRC</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>30</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRC</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>30</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRC</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>30</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	
+<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PRC</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRC</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row> 
+</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PRC_HELP">
+			<Text>The Parliamentary Recruiting Committee gives +30XP to all Military Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PRC">
+			<Text>PRC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_PRC_TEXT">
+			<Text>On 5 August 1914, the day after Britain declared war on Germany, Field-Marshal Lord Kitchener, a national hero of the Sudan and South African campaigns, accepted the vacant post of Secretary of State for War. Kitchener was one of the few leading British soldiers or statesmen to predict a long and costly war and to foresee that the existing British Expeditionary Force (BEF) of six infantry divisions and four cavalry brigades would be far too small to play an influential part in a major European conflict. He therefore decided to raise, by traditional voluntary means, a series of "New Armies", each duplicating the original BEF. His first appeal for volunteers was issued on 7 August. He also permitted the part-time Territorial Force – originally intended primarily for home defence – to expand and to volunteer for active service overseas.[NEWLINE]After a relatively slow start, there was a sudden surge in recruiting in late August and early September 1914. In all, 478 893 men joined the army between 4 August and 12 September, including 33 204 on 3 September alone the highest daily total of the war and more than the average annual intake in the years immediately before 1914. Apart from a bedrock of patriotism and a widespread collective sense of duty to King and Empire, two factors, in particular, helped to generate this boom in enlistment. One was the formation on 31 August of the Parliamentary Recruiting Committee (PRC), which placed at the disposal of the War Office the entire network of local party political organisations. The assistance which the PRC provided included the issue of a series of memorable recruiting posters designed by leading graphic artists of the day. Another key factor in stimulating enlistment was the granting of permission to committees of municipal officials, industrialists and other dignitaries, especially in northern England, to organise locally-raised "Pals" battalions, which men from the same community or workplace were encouraged to join on the understanding that they would train and, eventually, fight together. Many other men, however, enlisted for adventure or to escape from an arduous, dangerous or humdrum job.[NEWLINE]It must be pointed out, moreover, that the iconic image designed by Alfred Leete, famous for Kitchener's pointing finger and the words "Your Country Needs You", did not appear in poster form until the end of September 1914, by which time voluntary enlistments had already passed their peak. The supposed influence on recruiting of what is arguably the best-known poster of all time is therefore probably something of a myth.[NEWLINE]Though 2 466 719 men joined the British army voluntarily between August 1914 and December 1915, even this enormous total was insufficient to maintain the BEF at a strength which would enable it to fight a modern industrialised war involving mass conscript armies. Declining recruiting totals led to increasing calls for compulsory military service throughout 1915. On 27 January 1916, the first Military Service Act introduced conscription for single men of military age, this being extended to married men by a second Military Service Act on 25 May 1916.[NEWLINE](Peter Simkins - 29 Jan 2014 - www.bl.uk)</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>
