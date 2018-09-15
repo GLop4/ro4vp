@@ -53,7 +53,6 @@
   <Actions>
     <OnModActivated>
       <UpdateDatabase>ART/iconAtlas_def.sql</UpdateDatabase>
-      <UpdateDatabase>XML_Building/Gobekli_Buildings.xml</UpdateDatabase>
       <UpdateDatabase>Font Icon/GO_fonticons.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/greekolives.xml</UpdateDatabase>
       <UpdateDatabase>XML_Building/Meteora_Building.xml</UpdateDatabase>
